@@ -1,7 +1,7 @@
 {
-  "name": "duke-social-publisher-draft",
+  "name": "duke-social-publisher",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@netlify/blobs": "latest",
     "@vitejs/plugin-react": "latest",
     "vite": "latest",
     "typescript": "latest",
